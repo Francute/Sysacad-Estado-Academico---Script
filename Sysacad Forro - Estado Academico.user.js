@@ -141,7 +141,7 @@ var inline_src = (<><![CDATA[
         const elementoTabla = crearTabla(
             materiasRegulares.map(
                 (materia, indice) => crearFila(
-                    [indice, materia.anoCursada, materia.nombre]
+                    [indice + 1, materia.anoCursada, materia.nombre]
                 )
             )
         );
