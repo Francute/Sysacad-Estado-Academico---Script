@@ -1,17 +1,22 @@
 // ==UserScript==
-// @name         Sysacad Forro - Estado Académico
-// @description  Mejora la página del estado académico en el sysacad (FRT-UTN).
-// @copyright    Francute
-// @license      MIT
-// @homepageURL  https://github.com/Francute/Sysacad-Estado-Academico---Script
-// @version      0.9.0
-// @author       Francute
-// @namespace    http://tampermonkey.net/
-// @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
-// @match        http://sysacad.frt.utn.edu.ar/estadoAcademico.*
-// @run-at       document-end
+// @namespace     http://openuserjs.org/users/Francute
+// @name          Sysacad Forro - Estado Académico
+// @description   Mejora la página del estado académico en el sysacad (FRT-UTN).
+// @copyright     Francute
+// @license       MIT
+// @version       0.9.0
+// @include       http://sysacad.frt.utn.edu.ar/estadoAcademico.*
+// @grant         none
+// @author        Francute
+// @homepageURL   https://github.com/Francute/Sysacad-Estado-Academico---Script
+// @require       https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
+// @require       https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
+// @run-at        document-end
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author        Francute
+// ==/OpenUserJS==
 
 /* jshint ignore:start */
 var inline_src = (<><![CDATA[
