@@ -6,8 +6,6 @@
 // @license       MIT
 // @version       0.9.0
 // @include       http://sysacad.frt.utn.edu.ar/estadoAcademico.*
-// @grant         none
-// @author        Francute
 // @homepageURL   https://github.com/Francute/Sysacad-Estado-Academico---Script
 // @require       https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require       https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
